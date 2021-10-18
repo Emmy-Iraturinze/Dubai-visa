@@ -45,7 +45,7 @@ function UserList() {
 
   return (
     <React.Fragment className="bg-white">
-      <FormControl>
+      {/* <FormControl>
         <InputLabel id="demo-simple-select-label">Responsive Option</InputLabel>
         <Select
           labelId="demo-simple-select-label"
@@ -79,7 +79,7 @@ function UserList() {
           <MenuItem value={"800px"}>800px</MenuItem>
           <MenuItem value={"100%"}>100%</MenuItem>
         </Select>
-      </FormControl>
+      </FormControl> */}
       <MUIDataTable
         title={"DUBAI VISA users list"}
         data={data}

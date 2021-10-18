@@ -13,7 +13,7 @@ function BranchList() {
   const [tableBodyHeight, setTableBodyHeight] = useState("400px");
   const [tableBodyMaxHeight, setTableBodyMaxHeight] = useState("");
 
-  const columns = ["Name", "Role", "Location","Status","Time status"];
+  const columns = ["Name", "Role", "Location","Time Registered"];
 
   const options = {
     filter: true,
@@ -46,7 +46,7 @@ function BranchList() {
   return (
     <React.Fragment className="bg-white">
    
-
+{/* 
         <FormControl>
         <InputLabel id="demo-simple-select-label">Responsive Option</InputLabel>
         <Select
@@ -81,7 +81,7 @@ function BranchList() {
           <MenuItem value={"800px"}>800px</MenuItem>
           <MenuItem value={"100%"}>100%</MenuItem>
         </Select>
-      </FormControl>
+      </FormControl> */}
       <MUIDataTable
         title={"DUBAI VISA branch list"}
         data={data}

@@ -100,7 +100,7 @@ function RequestHistory() {
   return (
     <React.Fragment className="bg-white">
    
-
+{/* 
         <FormControl>
         <InputLabel id="demo-simple-select-label">Responsive Option</InputLabel>
         <Select
@@ -120,8 +120,8 @@ function RequestHistory() {
           </MenuItem>
           <MenuItem value={"stacked"}>stacked (deprecated)</MenuItem>
         </Select>
-      </FormControl>
-      <FormControl>
+      </FormControl> */}
+      {/* <FormControl>
         <InputLabel id="demo-simple-select-label">Table Body Height</InputLabel>
         <Select
           labelId="demo-simple-select-label"
@@ -135,7 +135,7 @@ function RequestHistory() {
           <MenuItem value={"800px"}>800px</MenuItem>
           <MenuItem value={"100%"}>100%</MenuItem>
         </Select>
-      </FormControl>
+      </FormControl> */}
       <MUIDataTable
         title={"DUBAI VISA request"}
         data={data}
