@@ -27,7 +27,7 @@ function UserList() {
     ["Gabby George", "Business Analyst", "Minneapolis"],
     [
       "Aiden Lloyd",
-      "Business Consultant for an International Company and CEO of Tony's Burger Palace",
+      "Business Consultant ",
       "Dallas"
     ],
     ["Jaden Collins", "Attorney", "Santa Ana"],
