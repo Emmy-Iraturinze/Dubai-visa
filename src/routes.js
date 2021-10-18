@@ -106,8 +106,33 @@ const routes = [
             },
             {
                 exact: true,
-                path: '/tables/bootstrap',
-                component: lazy(() => import('./views/tables/BootstrapTable'))
+                path: '/tables/requesthistory',
+                component: lazy(() => import('./views/tables/RequestHistory'))
+            },
+            {
+                exact: true,
+                path: '/tables/branchlist',
+                component: lazy(() => import('./views/tables/BranchList1'))
+            },
+            {
+                exact: true,
+                path: '/tables/branchlist',
+                component: lazy(() => import('./views/tables/BranchList'))
+            },
+            {
+                exact: true,
+                path: '/tables/userlist',
+                component: lazy(() => import('./views/tables/UsersList'))
+            },
+            {
+                exact: true,
+                path: '/tables/newuser',
+                component: lazy(() => import('./views/tables/Newuser'))
+            },
+            {
+                exact: true,
+                path: '/tables/newbranch',
+                component: lazy(() => import('./views/tables/NewBranch'))
             },
 
             {

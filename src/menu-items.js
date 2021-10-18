@@ -17,168 +17,130 @@ const menuItems = {
         },
         {
             id: 'ui-element',
-            title: 'UI ELEMENT',
+            title: 'Visas details',
             type: 'group',
             icon: 'icon-ui',
             children: [
                 {
                     id: 'basic',
-                    title: 'Components',
+                    title: 'Visas',
                     type: 'collapse',
                     icon: 'feather icon-box',
                     children: [
                         {
-                            id: 'button',
-                            title: 'Button',
+                            id: 'request',
+                            title: ' Request History',
                             type: 'item',
-                            url: '/basic/button'
+                            url: '/tables/requesthistory',
+                        
                         },
                         {
-                            id: 'badges',
-                            title: 'Badges',
+                            id: 'Request_New_Visa',
+                            title: 'New Visa',
                             type: 'item',
-                            url: '/basic/badges'
+                            url: '/tables/bootstrap',
+                           
                         },
-                        {
-                            id: 'breadcrumb',
-                            title: 'Breadcrumb',
-                            type: 'item',
-                            url: '/basic/breadcrumb'
-                        },
-                        {
-                            id: 'collapse',
-                            title: 'Collapse',
-                            type: 'item',
-                            url: '/basic/collapse'
-                        },
-                        {
-                            id: 'tabs-pills',
-                            title: 'Tabs & Pills',
-                            type: 'item',
-                            url: '/basic/tabs-pills'
-                        },
-                        {
-                            id: 'typography',
-                            title: 'Typography',
-                            type: 'item',
-                            url: '/basic/typography'
-                        }
+                   
+                     
+                
+                  
+                  
+                  
+                    
+                    
                     ]
                 }
             ]
         },
         {
-            id: 'ui-forms',
-            title: 'Forms & Tables',
+            id: 'ui-element',
+            title: 'Branch & New Branch',
             type: 'group',
-            icon: 'icon-group',
+            icon: 'icon-ui',
             children: [
                 {
-                    id: 'forms',
-                    title: 'Forms',
-                    type: 'item',
-                    url: '/forms/form-basic',
-                    icon: 'feather icon-file-text'
-                },
-                {
-                    id: 'bootstrap',
-                    title: 'Bootstrap Table',
-                    type: 'item',
-                    url: '/tables/bootstrap',
-                    icon: 'feather icon-server'
-                }
-            ]
-        },
-        {
-            id: 'chart-maps',
-            title: 'Chart & Maps',
-            type: 'group',
-            icon: 'icon-charts',
-            children: [
-                {
-                    id: 'charts',
-                    title: 'Charts',
-                    type: 'item',
-                    url: '/charts/nvd3',
-                    icon: 'feather icon-pie-chart'
-                },
-                {
-                    id: 'maps',
-                    title: 'Maps',
-                    type: 'item',
-                    url: '/maps/google-map',
-                    icon: 'feather icon-map'
-                }
-            ]
-        },
-        {
-            id: 'pages',
-            title: 'Pages',
-            type: 'group',
-            icon: 'icon-pages',
-            children: [
-                {
-                    id: 'auth',
-                    title: 'Authentication',
+                    id: 'Vs',
+                    title: 'Branches',
                     type: 'collapse',
-                    icon: 'feather icon-lock',
+                    icon: 'feather icon-server',
                     children: [
                         {
-                            id: 'signup-2',
-                            title: 'Sign UP (template)',
+                            id: 'Branchbistory',
+                            title: ' Branch History',
                             type: 'item',
-                            url: '/auth/signup-2',
-                            target: true,
-                            breadcrumbs: false
+                            url: '/tables/branchlist',
+                        
                         },
                         {
-                            id: 'signin-2',
-                            title: 'Sign IN (template)',
+                            id: 'Request_New_Visa',
+                            title: 'New Branch',
                             type: 'item',
-                            url: '/auth/signin-2',
-                            target: true,
-                            breadcrumbs: false
-                        }
+                            url: '/tables/newbranch',
+                          
+                        },
+                   
+                     
+                        // {
+                        //     id: 'button',
+                        //     title: 'Button',
+                        //     type: 'item',
+                        //     url: '/basic/button'
+                        // },
+                   
+                  
+                  
+                  
+                    
+                    
                     ]
-                },
-                {
-                    id: 'sample-page',
-                    title: 'Sample Page',
-                    type: 'item',
-                    url: '/sample-page',
-                    classes: 'nav-item',
-                    icon: 'feather icon-sidebar'
                 }
             ]
         },
         {
-            id: 'resources',
-            title: 'Resources',
+            id: 'ui-element',
+            title: 'Users & New User',
             type: 'group',
-            icon: 'icon-pages',
+            icon: 'icon-ui',
             children: [
                 {
-                    id: 'product-page',
-                    title: 'Download Product',
-                    type: 'item',
-                    url: 'https://appseed.us/product/react-node-js-datta-able',
-                    classes: 'nav-item',
-                    icon: 'feather icon-download',
-                    target: true,
-                    external: true
-                },
-                {
-                    id: 'support',
-                    title: 'Get Support',
-                    type: 'item',
-                    icon: 'feather icon-help-circle',
-                    classes: 'nav-item',
-                    url: 'https://appseed.us',
-                    target: true,
-                    external: true
+                    id: 'user',
+                    title: 'Users',
+                    type: 'collapse',
+                    icon: 'feather icon-file-text',
+                    children: [
+                        {
+                            id: 'userlist',
+                            title: ' User List',
+                            type: 'item',
+                            url: '/tables/userlist',
+                           
+                        },
+                        {
+                            id: 'newuser',
+                            title: 'New User',
+                            type: 'item',
+                            url: '/tables/newuser',
+                           
+                        },
+                   
+                     
+                        // {
+                        //     id: 'button',
+                        //     title: 'Button',
+                        //     type: 'item',
+                        //     url: '/basic/button'
+                        // },
+                   
+                  
+                  
+                  
+                    
+                    
+                    ]
                 }
             ]
-        }        
+        },    
     ]
 };
 

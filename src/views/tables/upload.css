@@ -1,0 +1,141 @@
+
+ 
+ html { 
+   padding: 0;
+   margin: 0;
+ }
+ 
+ body { 
+   font-family:Helvetica; 
+   margin: 0;
+   padding: 0; 
+ }
+ 
+ h1 {
+   color: #FFFFFF;
+   padding: 4px 0px 11px 5px;
+   margin: 0px;
+   font-size: 17px;
+ }
+ 
+ .cd-dropzone-wrapper{
+   margin: 5px 7px 5px 5px;
+   padding: 5px;
+   border: 1px solid #ccc;
+   display: block;
+ }
+ 
+ .cd-dropzone{
+   border: 2px dashed #bbb;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   padding: 15px;
+   text-align: center;
+   font: 20pt bold 'Vollkorn';
+   color: #bbb;
+ }
+ 
+ #cd-header-top{
+     background: #607D8B;
+     color:darkwhite;
+     text-align:left;
+     width: 100%;
+     height:90px;
+     position:relative;
+ }
+ 
+ footer {
+   background-color: #607D8B;
+   width: 100%;
+   bottom: 0;
+   padding: 0px 0px 0px 6px;
+   position: fixed;
+   font-family: ‘Lucida Console’, Monaco, monospace;
+   color: #CFD8DC;
+ }
+ 
+ section{
+   height: 100%;
+ }
+ .cd-top-line{
+   background: #455A64; 
+   heigth: 25px;
+   
+ }
+ 
+ .cd-input-button {
+     overflow: hidden;
+     position: relative;
+     cursor: pointer;
+ }
+ 
+ .cd-buttons {
+     width: 140px;
+     display: table;
+     text-align: center;
+     float:left;
+     margin: 0px 6px 0px 5px ;
+     font-size: 13px;
+     
+ }
+ 
+ .cd-buttons > .cd-button {
+     display: table-cell;
+     vertical-align: middle;    
+     height:17px;
+     overflow: hidden;
+     cursor: pointer;
+     color:#727272;
+     background-color: #CFD8DC;
+     text-align: center;    
+     padding:5px;
+ }
+ 
+ .cd-button:hover{
+   background-color:#FF5722;
+   color: #FFFFFF;
+ }
+ 
+ .cd-file-input {
+     cursor: pointer;
+     height: 100%;
+     position:absolute;
+     top: 0;
+     right: 0;
+     font-size:50px;
+ }
+ 
+ .hidden {
+     opacity: 0;
+     -moz-opacity: 0;
+     filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0)
+ }
+ 
+ .cd-img-container{
+  min-width: 650px;  
+  position: relative;
+  border-color: #B6B6B6;   
+ }
+ 
+ .cd-upload-button{
+   float: right;
+ }
+ 
+ .cd-dropzone-highlighted {
+     border: 4px solid #FF5722 !important;
+ }
+ 
+ progress:not([value]) {
+    
+ }
+ 
+  
+ .dark-primary-color    { background: #455A64; }
+ .default-primary-color { background: #607D8B; }
+ .light-primary-color   { background: #CFD8DC; }
+ .text-primary-color    { color: #FFFFFF; }
+ .accent-color          { background: #FF5722; }
+ .primary-text-color    { color: #212121; }
+ .secondary-text-color  { color: #727272; }
+ .divider-color         { border-color: #B6B6B6; }
